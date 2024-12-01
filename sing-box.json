@@ -181,8 +181,6 @@
       "outbounds": [
         "proxy",
         "direct",
-        "us",
-        "us-auto",
         "all",
         "all-auto"
       ],
@@ -194,8 +192,6 @@
       "outbounds": [
         "proxy",
         "direct",
-        "us",
-        "us-auto",
         "all",
         "all-auto"
       ],
@@ -207,30 +203,15 @@
       "outbounds": [
         "proxy",
         "direct",
-        "us",
-        "us-auto",
         "all",
         "all-auto"
       ],
       "default": "proxy"
     },
     {
-      "tag": "us",
-      "type": "selector",
-      "outbounds": []
-    },
-    {
       "tag": "all",
       "type": "selector",
       "outbounds": []
-    },
-    {
-      "tag": "us-auto",
-      "type": "urltest",
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
-      "tolerance": 50
     },
     {
       "tag": "all-auto",

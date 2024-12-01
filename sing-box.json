@@ -154,8 +154,6 @@
       "tag": "proxy",
       "type": "selector",
       "outbounds": [
-        "us",
-        "us-auto",
         "all",
         "all-auto",
         "direct"
@@ -168,8 +166,6 @@
       "outbounds": [
         "proxy",
         "direct",
-        "us",
-        "us-auto",
         "all",
         "all-auto"
       ],
@@ -227,8 +223,6 @@
       "outbounds": [
         "direct",
         "proxy",
-        "us",
-        "us-auto",
         "all",
         "all-auto"
       ],
